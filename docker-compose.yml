@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cloudassign1:
+    image: ${DOCKER_REGISTRY}cloudassign1
+    build:
+      context: .\CloudAssign1
+      dockerfile: Dockerfile
